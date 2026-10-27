@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="0.28" cy="0.18" r="0.7">
+      <stop offset="0" stop-color="#8f9bff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8f9bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.9" cy="1" r="0.6">
+      <stop offset="0" stop-color="#b48fff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#b48fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f9bff"/>
+      <stop offset="1" stop-color="#b9a4ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f47"/>
+      <stop offset="1" stop-color="#1c2030"/>
+    </linearGradient>
+    <radialGradient id="product" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#8f9bff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8f9bff" stop-opacity="0"/>
+    </radialGradient>
+    <path id="spark" d="M0,-10 C2,-2 2,-2 10,0 C2,2 2,2 0,10 C-2,2 -2,2 -10,0 C-2,-2 -2,-2 0,-10Z"/>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1600" height="700" fill="#12141d"/>
+  <rect width="1600" height="700" fill="url(#glow)"/>
+  <rect width="1600" height="700" fill="url(#glow2)"/>
+
+  <!-- app window -->
+  <rect x="250" y="80" width="1100" height="680" rx="18" fill="#171a25" stroke="#2c3142" stroke-width="2"/>
+  <circle cx="282" cy="108" r="6" fill="#3a3f52"/>
+  <circle cx="302" cy="108" r="6" fill="#3a3f52"/>
+  <circle cx="322" cy="108" r="6" fill="#3a3f52"/>
+  <rect x="600" y="96" width="400" height="24" rx="12" fill="#1e2230"/>
+  <rect x="740" y="105" width="120" height="6" rx="3" fill="#3a3f52"/>
+  <line x1="250" y1="136" x2="1350" y2="136" stroke="#23273a" stroke-width="2"/>
+
+  <!-- assistant chat -->
+  <circle cx="300" cy="178" r="16" fill="url(#accent)"/>
+  <use href="#spark" transform="translate(300 178) scale(0.8)" fill="#12141d"/>
+  <rect x="328" y="162" width="300" height="68" rx="14" fill="#1e2230"/>
+  <rect x="348" y="182" width="220" height="8" rx="4" fill="#4a5068"/>
+  <rect x="348" y="200" width="150" height="8" rx="4" fill="#3a3f52"/>
+
+  <rect x="430" y="252" width="250" height="48" rx="14" fill="url(#accent)"/>
+  <rect x="452" y="272" width="170" height="8" rx="4" fill="#12141d" fill-opacity="0.45"/>
+
+  <circle cx="300" cy="338" r="16" fill="url(#accent)"/>
+  <use href="#spark" transform="translate(300 338) scale(0.8)" fill="#12141d"/>
+  <rect x="328" y="322" width="340" height="96" rx="14" fill="#1e2230"/>
+  <rect x="348" y="342" width="280" height="8" rx="4" fill="#4a5068"/>
+  <rect x="348" y="360" width="240" height="8" rx="4" fill="#3a3f52"/>
+  <rect x="348" y="378" width="120" height="8" rx="4" fill="#3a3f52"/>
+  <rect x="348" y="396" width="60" height="8" rx="4" fill="#8f9bff" fill-opacity="0.7"/>
+
+  <rect x="284" y="452" width="396" height="46" rx="23" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+  <rect x="308" y="471" width="160" height="8" rx="4" fill="#3a3f52"/>
+  <circle cx="656" cy="475" r="15" fill="url(#accent)"/>
+  <path d="M650 475h12M657 469l6 6-6 6" stroke="#12141d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="712" y1="136" x2="712" y2="760" stroke="#23273a" stroke-width="2"/>
+
+  <!-- product grid -->
+  <g>
+    <rect x="740" y="162" width="180" height="250" rx="14" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+    <rect x="752" y="174" width="156" height="140" rx="10" fill="url(#card)"/>
+    <ellipse cx="830" cy="250" rx="58" ry="22" fill="url(#product)" transform="rotate(-14 830 250)"/>
+    <rect x="752" y="330" width="110" height="9" rx="4.5" fill="#4a5068"/>
+    <rect x="752" y="350" width="56" height="9" rx="4.5" fill="#6b7290"/>
+    <rect x="752" y="374" width="70" height="22" rx="11" fill="#262a3a"/>
+  </g>
+  <g>
+    <rect x="935" y="162" width="180" height="250" rx="14" fill="#1e2230" stroke="#8f9bff" stroke-width="2"/>
+    <rect x="947" y="174" width="156" height="140" rx="10" fill="url(#card)"/>
+    <ellipse cx="1025" cy="250" rx="62" ry="24" fill="url(#product)" transform="rotate(-14 1025 250)"/>
+    <rect x="959" y="186" width="74" height="22" rx="11" fill="url(#accent)"/>
+    <use href="#spark" transform="translate(973 197) scale(0.55)" fill="#12141d"/>
+    <rect x="985" y="194" width="38" height="6" rx="3" fill="#12141d" fill-opacity="0.55"/>
+    <rect x="947" y="330" width="120" height="9" rx="4.5" fill="#6b7290"/>
+    <rect x="947" y="350" width="56" height="9" rx="4.5" fill="#8f9bff"/>
+    <rect x="947" y="374" width="70" height="22" rx="11" fill="url(#accent)"/>
+  </g>
+  <g>
+    <rect x="1130" y="162" width="180" height="250" rx="14" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+    <rect x="1142" y="174" width="156" height="140" rx="10" fill="url(#card)"/>
+    <ellipse cx="1220" cy="250" rx="56" ry="21" fill="url(#product)" transform="rotate(-14 1220 250)"/>
+    <rect x="1142" y="330" width="100" height="9" rx="4.5" fill="#4a5068"/>
+    <rect x="1142" y="350" width="56" height="9" rx="4.5" fill="#6b7290"/>
+    <rect x="1142" y="374" width="70" height="22" rx="11" fill="#262a3a"/>
+  </g>
+
+  <!-- second row, fading out -->
+  <rect x="740" y="432" width="180" height="250" rx="14" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+  <rect x="752" y="444" width="156" height="140" rx="10" fill="url(#card)"/>
+  <rect x="935" y="432" width="180" height="250" rx="14" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+  <rect x="947" y="444" width="156" height="140" rx="10" fill="url(#card)"/>
+  <rect x="1130" y="432" width="180" height="250" rx="14" fill="#1e2230" stroke="#2c3142" stroke-width="2"/>
+  <rect x="1142" y="444" width="156" height="140" rx="10" fill="url(#card)"/>
+
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#12141d" stop-opacity="0"/>
+    <stop offset="1" stop-color="#12141d" stop-opacity="1"/>
+  </linearGradient>
+  <rect x="0" y="470" width="1600" height="230" fill="url(#fade)"/>
+
+  <!-- floating sparkles -->
+  <use href="#spark" transform="translate(1390 150) scale(1.4)" fill="#8f9bff" fill-opacity="0.8"/>
+  <use href="#spark" transform="translate(1420 200) scale(0.7)" fill="#b9a4ff" fill-opacity="0.6"/>
+  <use href="#spark" transform="translate(210 420) scale(0.9)" fill="#8f9bff" fill-opacity="0.5"/>
+</svg>
