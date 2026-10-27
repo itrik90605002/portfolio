@@ -1,14 +1,21 @@
-# Portfolio
+# Kirti Purohit — Portfolio
 
-Single-page portfolio built with Next.js (static export, no UI libraries, plain CSS).
+Personal portfolio website: AI & Java Backend Developer.
 
-## Edit your content
-Everything — name, text, skills, projects, and **all links** — lives in `data/profile.ts`.
-Set any `href` to `""` to hide that button.
+**Live:** _add link after deploying_ · [LinkedIn](https://www.linkedin.com/in/kirti-purohit-334976352)
 
-Put your résumé at `public/resume.pdf` (or set `resume` to a Google Drive link).
+## Tech
+
+Next.js 16 · React 19 · TypeScript · plain CSS · static export
 
 ## Run
+
+```bash
 npm install
-npm run dev      # http://localhost:3000
-npm run build    # static site in ./out — deploy to Vercel, Netlify or GitHub Pages
+npm run dev     # http://localhost:3000
+npm run build   # static site in out/
+```
+
+## Edit content
+
+All text and links are in [`data/profile.ts`](data/profile.ts). Set a link to `""` to hide it.
