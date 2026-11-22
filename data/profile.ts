@@ -10,8 +10,8 @@ const github = "https://github.com/itrik90605002";
 
 export const profile = {
   name: "Kirti Purohit",
-  role: "AI/ML Engineer · Full Stack Developer",
-  tagline: "B.Tech AI & ML student building full-stack applications with Spring Boot and FastAPI, and AI assistants powered by RAG and agentic workflows.",
+  role: "AI/ML Engineer · Backend Developer",
+  tagline: "B.Tech AI & ML student building backend services with Spring Boot and FastAPI, and AI assistants powered by RAG and agentic workflows.",
   availability: "Open to full-time roles · 2027",
   location: "",
   email: "purohitkirti965@gmail.com",
@@ -36,7 +36,7 @@ export const profile = {
   ],
 
   about: [
-    "I'm a B.Tech student in Artificial Intelligence & Machine Learning at JIET Jodhpur (2023–2027), with a CGPA of 9.60 through Semester VI. I work across the stack, from Java and Python backends to the AI features built on top of them.",
+    "I'm a B.Tech student in Artificial Intelligence & Machine Learning at JIET Jodhpur (2023–2027), with a CGPA of 9.60 through Semester VI. I focus on Java and Python backends and the AI features built on top of them.",
     "I've built backends with Spring Boot, FastAPI and Flask on MySQL, PostgreSQL, SQLite and ChromaDB, and front ends with HTML5, CSS3, JavaScript and React + TypeScript. My foundation is OOP, DSA, DBMS, operating systems and computer networks.",
     "On the AI side I build RAG assistants, agentic workflows with Groq and CrewAI, and plain-English interfaces over business data. I'm currently an AI/ML Engineer Intern at DreamTeam Technologies, and I hold a Certified Ethical Hacking (CEH) certification.",
   ],
