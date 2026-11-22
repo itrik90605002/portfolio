@@ -10,7 +10,7 @@ const github = "https://github.com/itrik90605002";
 
 export const profile = {
   name: "Kirti Purohit",
-  role: "Backend Developer · AI/ML Graduate",
+  role: "Java Backend Developer · AI/ML Graduate",
   tagline: "B.Tech AI & ML student building backend services with Spring Boot and FastAPI, and AI assistants powered by RAG and agentic workflows.",
   availability: "Open to full-time roles · 2027",
   location: "",
@@ -38,17 +38,17 @@ export const profile = {
   about: [
     "I'm a B.Tech student in Artificial Intelligence & Machine Learning at JIET Jodhpur (2023–2027), with a CGPA of 9.60 through Semester VI. I focus on Java and Python backends and the AI features built on top of them.",
     "I've built backends with Spring Boot, FastAPI and Flask on MySQL, PostgreSQL, SQLite and ChromaDB, and front ends with HTML5, CSS3, JavaScript and React + TypeScript. My foundation is OOP, DSA, DBMS, operating systems and computer networks.",
-    "On the AI side I build RAG assistants, agentic workflows with Groq and CrewAI, and plain-English interfaces over business data. I'm currently an AI/ML Engineer Intern at DreamTeam Technologies, and I hold a Certified Ethical Hacking (CEH) certification.",
+    "On the AI side I build RAG assistants, agentic workflows with Groq and CrewAI, and plain-English interfaces over business data. Most recently I interned as an AI/ML Engineer at DreamTeam Technologies, and I hold a Certified Ethical Hacking (CEH) certification.",
   ],
 
   experience: [
     {
-      period: "May 2026 — Present",
+      period: "May — Aug 2026",
       role: "AI/ML Engineer Intern",
       org: "DreamTeam Technologies Pvt. Ltd.",
       href: "",
       place: "",
-      summary: "Building an AI-powered code enhancement web app using Python, FastAPI, SQL and APIs.",
+      summary: "Built an AI-powered code enhancement web app using Python, FastAPI, SQL and APIs.",
       points: [],
       tech: ["Python", "FastAPI", "SQL", "APIs"],
       links: [{ label: "Certificate", href: "" }],
