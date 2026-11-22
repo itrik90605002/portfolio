@@ -48,7 +48,7 @@ export const profile = {
       org: "DreamTeam Technologies Pvt. Ltd.",
       href: "",
       place: "",
-      summary: "Building AI-powered web apps, intelligent assistants and search systems using Python, FastAPI, SQL and APIs.",
+      summary: "Building an AI-powered code enhancement web app using Python, FastAPI, SQL and APIs.",
       points: [],
       tech: ["Python", "FastAPI", "SQL", "APIs"],
       links: [{ label: "Certificate", href: "" }],
