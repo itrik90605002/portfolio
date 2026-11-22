@@ -1,6 +1,6 @@
 # Kirti Purohit — Portfolio
 
-Personal portfolio website: AI & Java Backend Developer.
+Personal portfolio website: Backend Developer · AI/ML Graduate.
 
 **Live:** _add link after deploying_ · [LinkedIn](https://www.linkedin.com/in/kirti-purohit-334976352)
 

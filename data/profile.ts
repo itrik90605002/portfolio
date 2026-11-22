@@ -10,7 +10,7 @@ const github = "https://github.com/itrik90605002";
 
 export const profile = {
   name: "Kirti Purohit",
-  role: "AI/ML Engineer · Backend Developer",
+  role: "Backend Developer · AI/ML Graduate",
   tagline: "B.Tech AI & ML student building backend services with Spring Boot and FastAPI, and AI assistants powered by RAG and agentic workflows.",
   availability: "Open to full-time roles · 2027",
   location: "",
