@@ -10,10 +10,10 @@ const github = "https://github.com/itrik90605002";
 
 export const profile = {
   name: "Kirti Purohit",
-  role: "AI & Java Backend Developer",
-  tagline: "B.Tech AI & ML student building backend services in Java, with hands-on experience in AI apps using Python.",
+  role: "AI/ML Engineer · Full Stack Developer",
+  tagline: "B.Tech AI & ML student building full-stack applications with Spring Boot and FastAPI, and AI assistants powered by RAG and agentic workflows.",
   availability: "Open to full-time roles · 2027",
-  location: "Ahmedabad, India",
+  location: "",
   email: "purohitkirti965@gmail.com",
   learning: "", // e.g. "Spring Boot in depth" — empty hides the line
 
@@ -31,14 +31,14 @@ export const profile = {
   stats: [
     { value: "9.60", label: "CGPA" },
     { value: "2", label: "Internships" },
-    { value: "6", label: "Projects" },
+    { value: "4", label: "Projects" },
     { value: "CEH", label: "Certified" },
   ],
 
   about: [
-    "I'm a B.Tech student in AI & ML at JIET Jodhpur, graduating in 2027 with a CGPA of 9.60. I'm aiming for AI and Java backend roles, with Core Java as my main language.",
-    "My base is strong CS fundamentals: OOP, data structures and algorithms, DBMS, operating systems and computer networks. I've built backends with Spring Boot, FastAPI and Flask, working with MySQL, SQLite and ChromaDB.",
-    "I also build AI applications in Python: RAG assistants, multi-agent chatbots, semantic search and OCR tools. I'm a Certified Ethical Hacker, so I keep security in mind when I build.",
+    "I'm a B.Tech student in Artificial Intelligence & Machine Learning at JIET Jodhpur (2023–2027), with a CGPA of 9.60 through Semester VI. I work across the stack, from Java and Python backends to the AI features built on top of them.",
+    "I've built backends with Spring Boot, FastAPI and Flask on MySQL, PostgreSQL, SQLite and ChromaDB, and front ends with HTML5, CSS3, JavaScript and React + TypeScript. My foundation is OOP, DSA, DBMS, operating systems and computer networks.",
+    "On the AI side I build RAG assistants, agentic workflows with Groq and CrewAI, and plain-English interfaces over business data. I'm currently an AI/ML Engineer Intern at DreamTeam Technologies, and I hold a Certified Ethical Hacking (CEH) certification.",
   ],
 
   experience: [
@@ -48,13 +48,9 @@ export const profile = {
       org: "DreamTeam Technologies Pvt. Ltd.",
       href: "",
       place: "",
-      summary:
-        "Building AI-powered web applications, intelligent assistants, search systems and knowledge management platforms.",
-      points: [
-        "Backend services with Python, FastAPI, SQL and third-party APIs.",
-        "Work with databases, version control and deployment workflows.",
-      ],
-      tech: ["Python", "FastAPI", "SQL", "REST APIs", "Git"],
+      summary: "Building AI-powered web apps, intelligent assistants and search systems using Python, FastAPI, SQL and APIs.",
+      points: [],
+      tech: ["Python", "FastAPI", "SQL", "APIs"],
       links: [{ label: "Certificate", href: "" }],
     },
     {
@@ -63,27 +59,38 @@ export const profile = {
       org: "Anand Rathi Pvt. Ltd.",
       href: "",
       place: "",
-      summary: "Developed responsive web applications with backend logic in Core Java and a MySQL database.",
-      points: [
-        "Wrote backend logic and managed the database layer.",
-        "Built user-focused interfaces with HTML5 and CSS3.",
-      ],
+      summary:
+        "Developed responsive web applications with HTML5, CSS3, Core Java and MySQL, covering backend logic and database management.",
+      points: [],
       tech: ["Core Java", "MySQL", "HTML5", "CSS3"],
       links: [{ label: "Certificate", href: "" }],
     },
   ],
 
-  // Optional screenshots: put images in /public/projects/ and set image: "/projects/name.png"
   // The project marked featured gets the large card.
   projects: [
     {
-      title: "Shoe.ai",
+      title: "StockPilot",
       featured: true,
-      image: "/projects/shoe-ai.svg",
       summary:
-        "An AI shopping assistant for a premium shoe store. A Spring Boot backend with Groq-based agentic workflows handles smart product search, recommendations and the shopping conversation.",
-      highlights: ["Spring Boot backend", "Agentic AI workflows", "Smart search & recommendations"],
-      tech: ["Java", "Spring Boot", "Groq API", "AI Agents"],
+        "An AI warehouse inventory system. A multi-warehouse platform for stock tracking, supplier purchasing and inter-warehouse transfers, with a plain-English assistant on top.",
+      highlights: [
+        "Spring Boot + PostgreSQL backend, React + TypeScript front end",
+        "Asks like \u201cWhich items will run out next week?\u201d via Gemini/OpenAI",
+        "Role-based access per warehouse",
+      ],
+      tech: ["Spring Boot", "PostgreSQL", "React", "TypeScript", "Gemini / OpenAI"],
+      links: [
+        { label: "Code", href: `${github}/stock-mind` },
+        { label: "Live", href: "https://stock-mind-xi.vercel.app" },
+      ],
+    },
+    {
+      title: "Shoe.ai",
+      summary:
+        "An AI shoe store assistant built with Spring Boot and Groq-based agentic workflows, delivering smart product search, recommendations and seamless shopping interactions.",
+      highlights: [],
+      tech: ["Spring Boot", "Groq", "Agentic AI"],
       links: [
         { label: "Code", href: `${github}/Branded_Shoes.ai` },
         { label: "Live", href: "" },
@@ -91,8 +98,7 @@ export const profile = {
     },
     {
       title: "Lumina Academia AI",
-      image: "",
-      summary: "A secure college knowledge assistant using RAG, with facial authentication, a database and intelligent search.",
+      summary: "A secure, RAG-based college knowledge assistant with facial authentication, database integration and intelligent search.",
       highlights: [],
       tech: ["RAG", "Face Auth", "Database"],
       links: [
@@ -101,38 +107,10 @@ export const profile = {
       ],
     },
     {
-      title: "CodeNexsus.ai",
-      image: "",
-      summary: "A full-stack multimodal, multi-agent chatbot that handles text, voice, documents, images and media.",
-      highlights: [],
-      tech: ["Flask", "SQL", "Gemini / OpenAI", "OCR"],
-      links: [
-        { label: "Code", href: `${github}/CodeNexsus.ai` },
-        { label: "Live", href: "" },
-      ],
-    },
-    {
-      title: "Smart Search System",
-      image: "",
-      summary: "Semantic search across documents of many formats, with OCR to read scanned files.",
-      highlights: [],
-      tech: ["React", "Flask", "ChromaDB", "OCR"],
-      links: [{ label: "Code", href: "" }],
-    },
-    {
-      title: "AI Resume Parser",
-      image: "",
-      summary: "Reads résumés with OCR and matches them against a job description to help recruiters shortlist.",
-      highlights: [],
-      tech: ["Python", "OCR", "NLP"],
-      links: [{ label: "Code", href: "" }],
-    },
-    {
       title: "EMOVOX",
-      image: "",
-      summary: "A voice assistant that detects the user's sentiment using NLP.",
+      summary: "A sentiment-aware voice assistant that detects the user's sentiment using NLP techniques.",
       highlights: [],
-      tech: ["Python", "NLP", "Speech"],
+      tech: ["NLP", "Voice Assistant"],
       links: [{ label: "Code", href: "" }],
     },
   ],
@@ -140,17 +118,17 @@ export const profile = {
 
   // Shown as the highlighted strip at the top of Skills
   coreStack: [
-    { name: "Core Java", note: "Main language" },
-    { name: "Spring Boot", note: "Backend framework" },
-    { name: "SQL · MySQL", note: "Databases" },
-    { name: "Python", note: "AI & scripting" },
+    { name: "Core Java · Spring Boot", note: "Backend" },
+    { name: "Python · FastAPI", note: "AI services" },
+    { name: "SQL", note: "MySQL · SQLite" },
+    { name: "RAG · CrewAI", note: "AI applications" },
   ],
 
   // level: Strong | Comfortable | Familiar
   skills: [
     { area: "Languages", level: "Strong", items: ["Core Java", "Python", "C", "SQL"] },
     { area: "Core CS", level: "Strong", items: ["OOP", "Data Structures & Algorithms", "DBMS", "Operating Systems", "Computer Networks"] },
-    { area: "Backend & Web", level: "Comfortable", items: ["Spring Boot", "FastAPI", "Flask", "API Integration", "HTML5", "CSS3", "JavaScript", "Streamlit"] },
+    { area: "Backend & Web", level: "Comfortable", items: ["Spring Boot", "FastAPI", "Flask", "Streamlit", "HTML5", "CSS3", "JavaScript"] },
     { area: "Databases", level: "Comfortable", items: ["MySQL", "SQLite", "ChromaDB"] },
     { area: "AI & Data", level: "Comfortable", items: ["NLP", "RAG", "CrewAI", "Prompt Engineering", "NumPy", "Pandas", "Matplotlib"] },
     { area: "Tools & Security", level: "Familiar", items: ["Git", "GitHub", "Linux", "Ethical Hacking (CEH)"] },
@@ -160,23 +138,21 @@ export const profile = {
     {
       period: "2023 — 2027",
       title: "B.Tech, Artificial Intelligence & Machine Learning",
-      place: "JIET, Jodhpur",
+      place: "Jodhpur Institute of Engineering & Technology (JIET)",
       note: "CGPA 9.60 (till Sem VI)",
       courses: ["OOP", "DSA", "DBMS", "Operating Systems", "Computer Networks"],
     },
-    { period: "", title: "Class XII (CBSE)", place: "", note: "75.6%", courses: [] },
-    { period: "", title: "Class X (CBSE)", place: "", note: "81%", courses: [] },
   ],
 
   certifications: [
-    { title: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", href: "" },
+    { title: "Certified Ethical Hacking (CEH)", issuer: "", href: "" },
     { title: "Python Programming", issuer: "Infosys Springboard", href: "" },
     { title: "C Programming", issuer: "Infosys Springboard", href: "" },
     { title: "Introduction to Prompt Engineering", issuer: "", href: "" },
   ],
 
   achievements: [
-    { title: "2nd Runner-Up — Hack-Ito 3.0", detail: "Hackathon", href: "" },
-    { title: "AI & Software Development Workshops", detail: "Took part in several workshops", href: "" },
+    { title: "2nd Runner-Up — Hack-Ito 3.0", detail: "", href: "" },
+    { title: "AI & Software Development Workshops", detail: "", href: "" },
   ],
 };

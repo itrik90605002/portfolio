@@ -171,11 +171,8 @@ export default function Home() {
           <Heading n={3} title="Projects" />
           {featured && (
             <article className="featured">
-              <div className="shot">
-                {featured.image ? <img src={featured.image} alt={featured.title} loading="lazy" /> : <span>{featured.title}</span>}
-                <em>Featured</em>
-              </div>
               <div className="featured-body">
+                <em className="badge">Featured</em>
                 <h3>{featured.title}</h3>
                 <p className="body">{featured.summary}</p>
                 {featured.highlights.length > 0 && (
@@ -193,7 +190,6 @@ export default function Home() {
           <div className="grid">
             {others.map((pr) => (
               <article key={pr.title} className="card">
-                {pr.image && <img src={pr.image} alt="" className="card-img" loading="lazy" />}
                 <h3>{pr.title}</h3>
                 <p className="body">{pr.summary}</p>
                 <Tags items={pr.tech} />
@@ -279,7 +275,7 @@ export default function Home() {
                     <a href={a.href || undefined} {...ext(a.href)}>
                       <span>
                         <strong>{a.title}</strong>
-                        <small>{a.detail}</small>
+                        {a.detail && <small>{a.detail}</small>}
                       </span>
                       {a.href && <ArrowUpRight size={13} />}
                     </a>
@@ -305,7 +301,7 @@ export default function Home() {
         </section>
 
         <footer className="footer">
-          © {new Date().getFullYear()} {p.name} · {p.location} · Built with Next.js
+          © {new Date().getFullYear()} {p.name}{p.location && ` · ${p.location}`} · Built with Next.js
         </footer>
       </main>
     </div>

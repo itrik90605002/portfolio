@@ -499,31 +499,9 @@ a.org[href]:hover {
 .card:hover {
   border-color: var(--line-2);
 }
-.shot {
-  position: relative;
-  aspect-ratio: 16 / 7;
-  background: radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 60%),
-    linear-gradient(135deg, var(--surface-2), var(--bg));
-  border-bottom: 1px solid var(--line);
-}
-.shot img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.shot span {
-  display: grid;
-  place-items: center;
-  height: 100%;
-  font-family: var(--font-serif), serif;
-  font-size: 64px;
-  color: var(--line-2);
-}
-.shot em {
-  position: absolute;
-  top: 14px;
-  left: 14px;
+.badge {
+  display: inline-block;
+  margin-bottom: 12px;
   padding: 3px 10px;
   border-radius: 999px;
   background: var(--accent);
@@ -586,13 +564,6 @@ a.org[href]:hover {
 }
 .grid > .card:last-child:nth-child(odd) {
   grid-column: 1 / -1;
-}
-.card-img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 14px;
 }
 .card .links {
   margin-top: auto;
